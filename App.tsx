@@ -1,13 +1,17 @@
-import AppPro from './AppPro';
+import {SafeAreaView, ScrollView} from 'react-native';
+import FlastCards from './components/FlastCards';
+import ElevatedCards from './components/ElevatedCards';
+import Fancycard from './components/Fancycard';
 
 function App() {
   return (
-    // <SafeAreaView>
-    //   <View>
-    //     <Text>Hi Dawg yo nigga</Text>
-    //   </View>
-    // </SafeAreaView>
-    <AppPro />
+    <SafeAreaView>
+      <ScrollView>
+        <FlastCards />
+        <ElevatedCards />
+        <Fancycard />
+      </ScrollView>
+    </SafeAreaView>
   );
 }
 export default App;
