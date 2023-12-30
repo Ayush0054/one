@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     // flex: 1,
     // justifyContent: 'center',
     // alignItems: 'center',
-    width: 350,
+    // width: 350,
     height: 360,
     borderRadius: 6,
     marginVertical: 12,
